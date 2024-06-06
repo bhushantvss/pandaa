@@ -23,7 +23,7 @@ class Get_Practice_data(APIView):
 
         print(data_list)
 
-
+        print("just checking purpose")
         paginated_data = paginator_class.paginate_queryset(data_list, request)
 
         print(paginated_data)
